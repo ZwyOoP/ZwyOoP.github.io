@@ -1,0 +1,35 @@
+#content-3{
+    width: auto;
+    height: 700px;
+    background-color: rgb(245, 245, 245);
+}
+
+#content-3-headline{
+    width: auto;
+    height: 600px;   
+    text-align: center;
+    padding-top: 60px;
+}
+
+#content-3-headline h3 {
+    font-size: 25px;
+}
+
+.content-3-underline{
+    width: 40px;
+    height: 3px;
+    background-color: yellowgreen;
+    margin: 7px auto;
+}
+
+#content-3-table{
+    margin: 20px auto;
+    width: 950px;
+    height: 550px;
+    background-color: rgb(224, 160, 160);
+}
+.content-3-table-tr{
+    width: 10px;
+    height: 180px;
+    background-color:rgb(72, 144, 144);
+}

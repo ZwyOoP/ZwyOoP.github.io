@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image:url(../Img/Home_TopBg0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+#firstbg{
+    width: auto;
+    height: 3245px;
+    /* background-color: rgba(255,0, 0, .2); */
+}
+
+#topbar{
+    width: auto;
+    height: 90px;
+    /* background-color:  rgba(50, 252, 43, 0.2); */
+}
+#topbar-left{
+    width: 260px;
+    height: 90px;
+    /* background-color: salmon; */
+    float: left;
+    margin-left: 100px;
+}
+#Logo{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 17px;
+    float: left;
+}
+#Name{
+    width: 110px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.topSpan{
+    color: #FFFF;
+    font-size: 20px;
+}
+#topbar-right{
+    width: 500px;
+    height: 90px;
+    /* background-color: rgba(226, 33, 210, 0.2); */
+    float: right;
+    margin-right: 100px;
+    line-height: 90px;
+}
+#topbar-right-ul{
+    list-style: none;
+}
+#topbar-right-ul li{
+    float: left;
+}
+#topbar-right-ul li a{
+    text-decoration: none;
+    color: #FFFF;
+    width: 80px;
+    height: 43px;
+    display: block;
+    /* background-color: rgba(170, 170, 170, 0.2); */
+    text-align: center;
+    line-height: 43px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    margin:30px 9px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.topbar-right-list-line{
+    width: 0px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: rgb(196, 253, 110);
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+	transition: 0.3s; 
+}
+
+#topbar-right-ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.10);
+}
+#topbar-right-ul li a:hover .topbar-right-list-line{
+    width: 40px;
+    height: 2px;
+    transform:scale(1);
+    visibility:visible;
+
+}
+#BUTTON{
+    width: 26px;
+    height: 26px;
+    background-color: rgba(0, 0, 0,.55);
+    border-radius: 50%;
+    float: left;
+    line-height: 29px;
+    text-align: center;
+    margin-left: 27px;
+    margin-top: 6px;
+    visibility:visible;
+    transition: .2s; 
+}
+#topbar-right-ul li a:hover #BUTTON{
+    background-color: rgba(0, 0, 0,.0);
+}
+#topbar-right-ul li a:hover #BUTTON span{
+    visibility: visible;
+}
