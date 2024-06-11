@@ -1,0 +1,64 @@
+#UIbox{
+    width: 600px;
+    height: 300px;
+    background-color: #e2a6a6;
+    margin: 200px auto;
+}
+#boxleft{
+    width: 250px;
+    height: 300px;
+    background-color: #c47575;
+    float: left;
+}
+#boxright{
+    width: 350px;
+    height: 300px;
+    background-color: #8b77d1;
+    float: right;
+}
+#topnar{
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    font-family: "黑体";
+    font-size: 23px;
+}
+#Userinput{
+    width: 350px;  
+    height: 100px;
+    text-align: center;
+    font-family: "黑体";
+    font-size: 15px;
+    margin: 5px auto;
+    background-color: rgb(235, 206, 206);
+}
+#button{
+    width: 350px;
+    height: 25px;
+    background-color: rgb(255, 167, 35);
+    margin: 0px auto;
+}
+#button input{
+    border: none;
+    font-size: 14px;
+}
+#denglu{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(187, 169, 169);
+    display:block;
+    margin-left: 100px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+#fanhui{
+    width: 50px;
+    display:block;
+    height: 20px;
+    background-color: rgb(228, 169, 169);
+    margin-left: 200px;
+    margin-top: -25px;
+    text-align: center;
+    text-decoration: none;
+}
