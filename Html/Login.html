@@ -6,34 +6,25 @@
     <title>用户登录</title>
     <link rel="stylesheet" href="../CSS/Sharelifebox.css">
 </head>
-<body style=" background-color: rgb(248, 179, 245);">
+<body style=" background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 0, 212));">
     <div id="UIbox">
         <div id="boxleft">
-
+            <img id="boxleftimg" src="/Img/微信图片_20240612033106.jpg" alt="">
         </div>
         <div id="boxright">
             <div id="topnar">
                 <p>用户登录</p>
             </div>
-            <div id="Userinput">
-                <div>
-                    <span>账号</span>
-                    <input type="text" style="border: none;">
-                </div>
+            <script src="/javascript/User.js"></script>
+            <form action="">
+                <span style="font-family: 黑体;margin-left: 65px;">账号</span><input type="text" placeholder="Zwy" id="username" style="margin-left: 5px;"/>
                 <br>
-                <div>
-                    <span>密码</span>
-                    <input type="password" style="border: none;">
-                </div>
-            </div>
-            <div id="button">
-                <a href="../index.html" style="text-decoration: none;float: left;padding: 1;">
-                    <div id="denglu">登录</div>
-                </a>
-                <a href="../index.html" style="text-decoration: none;">
-                    <div id="fanhui">返回</div>
-                </a>
-            </div>
+                <br>
+                <span style="font-family: 黑体;margin-left: 65px;">密码</span><input type="password" style="margin-left: 5px;" id="password" placeholder="123"/>
+                <br>
+                <input type="submit" value="登录"style=" margin-left: 160px;margin-top:10px;" onclick="checkLogin()" />
+              </form>
+              <div id="loginResult" ></div>
         </div>
     </div>
 </body>
